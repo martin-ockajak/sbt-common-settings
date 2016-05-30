@@ -3,7 +3,7 @@ Use and modify this SBT plugin template to share common settings among multiple 
 
 Unlike [classic multi-project setup](http://www.scala-sbt.org/1.0/docs/Multi-Project.html) this approach also works for independent builds.
 
-Detailed technical description can be found [here](https://engineering.sharethrough.com/blog/2015/09/23/capturing-common-config-with-an-sbt-parent-plugin/).
+Patrick Galbreath wrote a nice [article](https://engineering.sharethrough.com/blog/2015/09/23/capturing-common-config-with-an-sbt-parent-plugin/) about this topic.
 
 
 ## Requirements
