@@ -55,7 +55,7 @@ addSbtPlugin("build.sbt" % "sbt-common-settings" % "0.0.1")
 
 
 
-### Example
+## Example
 * See _project-example_
 
 
