@@ -32,7 +32,7 @@ Then add common settings plugin dependency by including one of the following in 
 
 
 
-### Project dependency
+#### Project dependency
 
 ```scala
 lazy val root = project.in( file(".") ).dependsOn( file("../../sbt-common-settings") )
@@ -42,7 +42,7 @@ lazy val root = project.in( file(".") ).dependsOn( file("../../sbt-common-settin
 * This results in slower build but common settings changes are applied immediately.
 
 
-### Artifact dependency
+#### Artifact dependency
 
 ```scala
 resolvers += "Artifacts" at "https://artifacts.example.org/repository"
